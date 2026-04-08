@@ -3,7 +3,8 @@
 
 void echo() {
     char buf[5];
-    scanf("%4s\n", buf);
+    //scanf("%4s\n", buf);
+    fgets(buf, 5, stdin);
     printf("%s\n", buf);
 }
 
