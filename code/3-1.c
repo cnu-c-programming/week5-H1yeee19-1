@@ -5,8 +5,8 @@ void read_only(int *arr, int size) {
     // arr[0] = 999;  // 컴파일 에러: 배열 요소에 값을 할당할 수 없음
     for (int i = 0; i < size; i++) {
         printf("%d ", *(arr + i));  // 배열 요소에 접근
+        printf("\n");
     }
-    printf("\n");
 }
 
 int main() {
